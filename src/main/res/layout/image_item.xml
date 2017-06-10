@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:divider="@drawable/seperator"
+    android:layout_weight="1"
+    android:showDividers="middle">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/tvemail"
+        android:text="email_address"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000">
+
+    </View>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="1dp"
+        android:id="@+id/imgView"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000">
+
+    </View>
+
+    <TextView
+        android:id="@+id/tvimage"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="Imagename"
+        android:textStyle="bold" />
+</LinearLayout>
